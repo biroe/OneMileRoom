@@ -1,0 +1,6 @@
+framework module Pods_one_mile_room {
+  umbrella header "Pods-one-mile-room-umbrella.h"
+
+  export *
+  module * { export * }
+}
