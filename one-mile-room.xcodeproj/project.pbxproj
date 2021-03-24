@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,10 @@
 		AF708FAB2606F84100C98424 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF708FAA2606F84100C98424 /* ContentView.swift */; };
 		AF708FAD2606F84200C98424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF708FAC2606F84200C98424 /* Assets.xcassets */; };
 		AF708FB02606F84200C98424 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF708FAF2606F84200C98424 /* Preview Assets.xcassets */; };
-		AFCA9EC92607DD0A002BEFAD /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA9EC82607DD0A002BEFAD /* ChatRoom.swift */; };
-		AFCA9ECC2607DDAA002BEFAD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA9ECB2607DDAA002BEFAD /* Message.swift */; };
 		AFE035CE260A65C8009CDD45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFE035CD260A65C8009CDD45 /* GoogleService-Info.plist */; };
+		AFEABCBB260B14EC004BAF47 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEABCBA260B14EC004BAF47 /* LoginView.swift */; };
+		AFEABCD4260B1869004BAF47 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEABCD3260B1869004BAF47 /* ChatRoomView.swift */; };
+		AFEABCD7260B1DA8004BAF47 /* ChatRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEABCD6260B1DA8004BAF47 /* ChatRoomModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,10 @@
 		AF708FAC2606F84200C98424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF708FAF2606F84200C98424 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF708FB12606F84200C98424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFCA9EC82607DD0A002BEFAD /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
-		AFCA9ECB2607DDAA002BEFAD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		AFE035CD260A65C8009CDD45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFEABCBA260B14EC004BAF47 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AFEABCD3260B1869004BAF47 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		AFEABCD6260B1DA8004BAF47 /* ChatRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				8135CF4645745766E7E4E1AD /* Pods-one-mile-room.debug.xcconfig */,
 				3A392E853815ADD41A7D4A50 /* Pods-one-mile-room.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,8 +86,9 @@
 			children = (
 				AF708FA82606F84100C98424 /* one_mile_roomApp.swift */,
 				AF708FAA2606F84100C98424 /* ContentView.swift */,
-				AFCA9EC82607DD0A002BEFAD /* ChatRoom.swift */,
-				AFCA9ECB2607DDAA002BEFAD /* Message.swift */,
+				AFEABCD6260B1DA8004BAF47 /* ChatRoomModel.swift */,
+				AFEABCD3260B1869004BAF47 /* ChatRoomView.swift */,
+				AFEABCBA260B14EC004BAF47 /* LoginView.swift */,
 				AF708FAC2606F84200C98424 /* Assets.xcassets */,
 				AF708FB12606F84200C98424 /* Info.plist */,
 				AFE035CD260A65C8009CDD45 /* GoogleService-Info.plist */,
@@ -217,9 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCA9EC92607DD0A002BEFAD /* ChatRoom.swift in Sources */,
-				AFCA9ECC2607DDAA002BEFAD /* Message.swift in Sources */,
 				AF708FAB2606F84100C98424 /* ContentView.swift in Sources */,
+				AFEABCD4260B1869004BAF47 /* ChatRoomView.swift in Sources */,
+				AFEABCBB260B14EC004BAF47 /* LoginView.swift in Sources */,
+				AFEABCD7260B1DA8004BAF47 /* ChatRoomModel.swift in Sources */,
 				AF708FA92606F84100C98424 /* one_mile_roomApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
