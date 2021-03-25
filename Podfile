@@ -7,10 +7,7 @@ target 'one-mile-room' do
 
   # Pods for one-mile-room
 
+pod 'FirebaseFirestoreSwift'
 pod 'Firebase/Firestore'
-pod 'Firebase/Storage'
-pod 'Firebase/Core'
-pod 'Firebase/Database'
-pod 'Firebase/Auth'
 
 end
