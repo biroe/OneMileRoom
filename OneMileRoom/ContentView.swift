@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                Color("lightt")
+                    .ignoresSafeArea()
+                VStack {
+                    Text("Search bar")
+                    Spacer()
+                    Form {
+                        ForEach((1...100), id: \.self) {
+                                Text("HEllo \($0)")
+                            }
+                    }
+                    Spacer()
+                    Text("Textentry")
+                    Spacer()
+                }
+            }
+        }
     }
 }
 
