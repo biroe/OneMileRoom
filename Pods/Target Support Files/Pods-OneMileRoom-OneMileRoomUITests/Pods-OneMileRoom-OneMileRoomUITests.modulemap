@@ -1,0 +1,6 @@
+framework module Pods_OneMileRoom_OneMileRoomUITests {
+  umbrella header "Pods-OneMileRoom-OneMileRoomUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
