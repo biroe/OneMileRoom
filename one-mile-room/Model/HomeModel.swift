@@ -48,7 +48,7 @@ class HomeModel: ObservableObject {
     }
     
     func readAllMessages() {
-        ref.collection("Message").addSnapshotListener{
+        ref.collection("Messages").addSnapshotListener{
             (snap, err) in
             if err != nil {
                 print(err!.localizedDescription)
